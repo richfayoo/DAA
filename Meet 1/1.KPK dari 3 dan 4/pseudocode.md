@@ -1,0 +1,16 @@
+## Pseudocode
+
+```
+PROSEDUR KPK(x, y)
+    NOMOR_MAX <- maksimum(x, y)
+
+    ULANGI
+        JIKA NOMOR_MAX MODULO x = 0 DAN NOMOR_MAX MODULO y = 0 MAKA
+            KPK <- NOMOR_MAX
+            KELUAR DARI PERULANGAN
+        AKHIR JIKA
+        NOMOR_MAX <- NOMOR_MAX + 1
+    HINGGA SALAH
+
+    KEMBALIKAN KPK
+AKHIR PROSEDUR
